@@ -9,9 +9,9 @@ Check this site for a quick demo: https://passatgt.github.io/gdpr-cookie-notice/
 
 ##### How it works?
 
-Include the scripts.js and style.css files on your site from the dist folder. Init the script with the following config file:
+Include the `script.js` and `style.css` files on your site from the dist folder. Init the script with the following config file:
 
-```
+```javascript
 gdprCookieNotice({
   locale: 'en', //This is the default value
   timeout: 500, //Time until the cookie bar appears
@@ -21,7 +21,7 @@ gdprCookieNotice({
   statement: 'https://google.com', //Link to your cookie statement page
   performance: ['JSESSIONID'], //Cookies in the performance category.
   analytics: ['ga'], //Cookies in the analytics category.
-  marketing: [SSID'] //Cookies in the marketing category.
+  marketing: ['SSID'] //Cookies in the marketing category.
 });
 ```
 
