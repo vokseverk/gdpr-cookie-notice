@@ -1,7 +1,7 @@
 GDPR Cookie Notice
 =============
 
-This is a javascript solution to show a gdpr compliant cookie notice on your website.
+This is a javascript solution to show a GDPR compliant cookie notice on your website.
 
 ##### Demo
 
@@ -25,6 +25,6 @@ gdprCookieNotice({
 });
 ```
 
-User will see a banner at the bottom of the screen, describing why the site runs cookies. Clicking on Cookie settings will let the user select which type of cookies they might allow on the site(if something is not allowed, all cookies defined in the config file will be deleted automatically on page load). The bar will be visible always if they don't allow all types of cookies to load, just to annoy them a little.
+The user will see a banner at the bottom of the screen, describing why the site runs cookies. Clicking on *Cookie settings* will let the user select which type of cookies they might allow on the site (if something is not allowed, all cookies defined in the config file will be deleted automatically on page load). The bar will be visible always if they don't allow all types of cookies to load, just to annoy them a little.
 
-You can use listen to the gdprCookiesEnabled event to load scripts on your site only when the cookies are enabled by the user.
+You can use listen to the `gdprCookiesEnabled` event to load scripts on your site only when the cookies are enabled by the user.
